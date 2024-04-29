@@ -1,16 +1,12 @@
 # ©2024 - BestArivu - BestMat, Inc. - All rights reserved.
-import nltk
+import nltk, json
 from nltk.tokenize import word_tokenize
 
 # You may need to download NLTK data
 nltk.download('punkt')
 
 # Define a dictionary mapping programming language names to their respective file extensions
-language_extensions = {
-    "python": ".py",
-    "java": ".java",
-    # Add more languages and their extensions as needed
-}
+language_extensions = json.loads(open("./data/nlp-data/langauge_extensions.json"))
 
 # Function to generate code based on user input
 def generate_code(user_input, language):

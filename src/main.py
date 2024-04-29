@@ -1,4 +1,4 @@
-# 
+# ©2024 - BestArivu - BestMat, Inc. - All rights reserved.
 import nltk
 from nltk.tokenize import word_tokenize
 

@@ -520,9 +520,3 @@ abbreviation_rules = {
     "etc": "et cetera",
     # Add more abbreviations as needed
 }
-
-# Example usage:
-# Assuming tokens is generated from the first library
-tokens = ["mr.", "smith", "ltd", "dept.", "jul"]
-expanded_tokens = handle_abbreviations(tokens, abbreviation_rules)
-print(expanded_tokens)
